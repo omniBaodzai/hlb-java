@@ -6,7 +6,7 @@ public class ChallengeChar
         char myUnicodeChar = '\u003f';
         char myDecimalChar = 63;
 
-        System.out.print("My values are = " + mySimpleChar + myUnicodeChar + myDecimalChar);
+        System.out.print("My values are = " + mySimpleChar + myUnicodeChar + myDecimalChar); 
     }
 
 }
