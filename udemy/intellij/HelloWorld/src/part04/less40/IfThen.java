@@ -1,3 +1,5 @@
+package part04.less40;
+
 public class IfThen {
     public static void main(String[] args) {
 //        boolean isAlien = false;
