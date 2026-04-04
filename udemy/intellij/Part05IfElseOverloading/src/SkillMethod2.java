@@ -1,4 +1,4 @@
-public class MethodExample
+public class SkillMethod2
 {
     public static void main(String[] args)
     {
@@ -7,23 +7,14 @@ public class MethodExample
         int levelCompleted = 5;
         int bonus = 100;
 
-        int finalScore = score;
-
         // Gọi/thực thi phương thức
-        calculateScore(true, 800, levelCompleted, bonus);
+        calculateScore(gameOver, score, levelCompleted, bonus);
 
-        // New value
         score = 10000;
         levelCompleted = 8;
         bonus = 200;
 
-        finalScore = score;
-
-        if (gameOver)
-        {
-            finalScore += (levelCompleted * bonus);
-            System.out.println("2. Your final score was " + finalScore);
-        }
+        calculateScore(gameOver, score, levelCompleted, bonus);
     }
     // method
     public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus)
