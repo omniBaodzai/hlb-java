@@ -1,4 +1,4 @@
-public class SkillMethod2
+public class SkillMethod02
 {
     public static void main(String[] args)
     {
