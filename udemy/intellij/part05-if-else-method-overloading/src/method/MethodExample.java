@@ -1,4 +1,7 @@
-public class OverviewMethod {
+package method;
+
+public class MethodExample
+{
     public static void main(String[] args)
     {
         boolean gameOver = true;
@@ -8,8 +11,8 @@ public class OverviewMethod {
 
         int finalScore = score;
 
-        // Gọi / thực thi phương thức
-        calculateScore();
+        // Gọi/thực thi phương thức
+        calculateScore(true, 800, levelCompleted, bonus);
 
         // New value
         score = 10000;
@@ -25,13 +28,8 @@ public class OverviewMethod {
         }
     }
     // method
-    public static void calculateScore()
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus)
     {
-        boolean gameOver = true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
-
         int finalScore = score;
 
         if (gameOver)

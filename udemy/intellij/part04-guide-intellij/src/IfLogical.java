@@ -1,5 +1,3 @@
-package part04.less40;
-
 public class IfLogical {
     public static void main(String[] args) {
         int newValue = 50;

@@ -1,3 +1,5 @@
+package method;
+
 public class SkillMethod01
 {
     public static void main(String[] args)

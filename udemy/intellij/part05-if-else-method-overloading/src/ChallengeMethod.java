@@ -1,4 +1,4 @@
-public class Less51ChallengeMethod
+public class ChallengeMethod
 {
     public static void main(String[] args)
     {
