@@ -1,6 +1,4 @@
-package part04.less41;
-
-public class Less41Challenge {
+public class Challenge {
     public static void main(String[] args) {
         double firstValue = 20.00d;
         double secondValue = 80.00d;

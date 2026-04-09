@@ -1,5 +1,6 @@
-public class MethodExample
-{
+package method;
+
+public class OverviewMethod {
     public static void main(String[] args)
     {
         boolean gameOver = true;
@@ -9,8 +10,8 @@ public class MethodExample
 
         int finalScore = score;
 
-        // Gọi/thực thi phương thức
-        calculateScore(true, 800, levelCompleted, bonus);
+        // Gọi / thực thi phương thức
+        calculateScore();
 
         // New value
         score = 10000;
@@ -26,8 +27,13 @@ public class MethodExample
         }
     }
     // method
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus)
+    public static void calculateScore()
     {
+        boolean gameOver = true;
+        int score = 800;
+        int levelCompleted = 5;
+        int bonus = 100;
+
         int finalScore = score;
 
         if (gameOver)
