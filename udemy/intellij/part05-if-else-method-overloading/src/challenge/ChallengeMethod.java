@@ -1,3 +1,5 @@
+package challenge;
+
 public class ChallengeMethod
 {
     public static void main(String[] args)
