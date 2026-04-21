@@ -4,8 +4,8 @@ public class ChallengeOverloading04
 {
     public static void main(String[] args)
     {
-        System.out.println(getDurationString(-1));
-        System.out.println(getDurationString(-1, 0));
+        System.out.println(getDurationString(3945));
+        System.out.println(getDurationString(65, 145));
 
     }
 
