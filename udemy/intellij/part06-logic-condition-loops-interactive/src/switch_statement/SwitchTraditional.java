@@ -1,6 +1,6 @@
 package switch_statement;
 
-public class Main
+public class SwitchTraditional
 {
     public static void main(String[] args)
     {
