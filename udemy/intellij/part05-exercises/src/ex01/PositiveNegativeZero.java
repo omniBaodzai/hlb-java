@@ -2,7 +2,14 @@ package ex01;
 
 public class PositiveNegativeZero
 {
-    // write code here
+    public static void main(String[] arg)
+    {
+        checkNumber(2);
+        checkNumber(-1);
+        checkNumber(-0);
+    }
+
+    // Hàm checkNumber: Kiểm tra số
     public static void checkNumber(int number)
     {
         if (number > 0)

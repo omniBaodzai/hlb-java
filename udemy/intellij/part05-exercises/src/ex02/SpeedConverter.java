@@ -16,7 +16,7 @@ public class SpeedConverter
     1 km/h = 0.621371 mi/h
     */
 
-    // Hàm chuyển từ km sang mi
+    // Hàm toMilesPerHour: Cho ki lô mét và chuyển nó sang dặm
     public static long toMilesPerHour(double kilometersPerHour)
     {
         if (kilometersPerHour < 0)
@@ -24,11 +24,10 @@ public class SpeedConverter
             return - 1;
         }
 
-        double milesPerHour = (kilometersPerHour * 1) / 1.609;
-        return (Math.round(milesPerHour));
+        return Math.round(kilometersPerHour / 1.609);
     }
 
-    // Hàm in kết quả
+    // Hàm printConversion: In kết quả
     public static void printConversion(double kilometersPerHour)
     {
         if (kilometersPerHour < 0)

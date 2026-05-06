@@ -11,7 +11,7 @@ public class IfLogical {
 
         boolean isCar = false;
         if (isCar == true) { // isCar = true != isCar == true
-            System.out.println("Câu lệnh này được thực thi");
+            System.out.println("Câu lệnh này không được thực thi");
         }
 
         // Best practice

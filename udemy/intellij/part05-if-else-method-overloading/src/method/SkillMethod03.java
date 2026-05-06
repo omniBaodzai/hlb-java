@@ -11,7 +11,7 @@ public class SkillMethod03
 
         // Gọi/thực thi phương thức
         int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
-        System.out.println("The hightScore is " + highScore);
+        System.out.println("The highScore is " + highScore);
 
         score = 10000;
         levelCompleted = 8;

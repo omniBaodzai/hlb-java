@@ -9,6 +9,7 @@ public class MegaBytesConverter
         printMegaBytesAndKiloBytes(5000);
     }
 
+    // Hàm printMegaBytesAndKiloBytes: Từ KB đổi ra MB và KB dư
     public static void printMegaBytesAndKiloBytes(int kiloBytes)
     {
         if (kiloBytes < 0)
@@ -18,9 +19,9 @@ public class MegaBytesConverter
         }
 
         int megabytes = kiloBytes / 1024;
-        int remainingKilobyte = kiloBytes % 1024;
+        int remainingKilobytes = kiloBytes % 1024;
 
         System.out.println(kiloBytes + " KB = "  + megabytes + " MB and " +
-                remainingKilobyte + " KB");
+                remainingKilobytes + " KB");
     }
 }

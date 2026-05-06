@@ -11,28 +11,15 @@ public class TeenNumberChecker
         System.out.println(result2);
     }
 
-    public static boolean hasTeen(int firstTeen, int secondTeen, int thirdTeen)
+    // Hàm hasTeen: Kiểm tra xem tuổi có phải là teen không
+    public static boolean hasTeen(int a, int b, int c)
     {
-        if (firstTeen >= 13 && firstTeen <= 19) // 9: không thỏa
-        {
-            return true;
-        }
-        else if (secondTeen >= 13 && secondTeen <= 19) // 99: không thỏa
-        {
-            return true;
-        }
-        else if (thirdTeen >= 13 && thirdTeen <= 19) // 19: thỏa
-        {
-            return true; // true
-        }
-        else
-        {
-            return false;
-        }
+        return isTeen(a) || isTeen(b) || isTeen(c);
     }
 
-    public static boolean isTeen(int teenValue)
+    // Hàm isTeen: Kiểm tra xem tuổi có phải là teen không
+    public static boolean isTeen(int number)
     {
-        return teenValue >= 13 && teenValue <= 19;
+        return number > 12 && number < 20;
     }
 }

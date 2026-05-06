@@ -4,13 +4,16 @@ public class EqualSumChecker
 {
     public static void main(String[] args)
     {
-        boolean result = hasEqualSum(1, -1, 0);
+        boolean result = hasEqualSum(1, 1, 1);
         System.out.println(result);
+
+        System.out.println(hasEqualSum(1, 1, 2));
+        System.out.println(hasEqualSum(1, -1, 0));
     }
 
-    public static boolean hasEqualSum(int firstValue, int secondValue, int thirdValue)
+    // Hàm hasEqualSum: Kiểm tra xem tổng có bằng nhau không
+    public static boolean hasEqualSum(int a, int b, int c)
     {
-        int totalValue = firstValue + secondValue;
-        return totalValue == thirdValue;
+        return (a + b) == c;
     }
 }
