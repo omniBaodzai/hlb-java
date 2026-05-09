@@ -17,6 +17,7 @@ public class NumberInWord
         printNumberInWord(10);
     }
 
+    // Hàm printNumberInWord: Chuyển đổi số thành chữ
     public static void printNumberInWord(int number)
     {
         String numberInWord = switch (number)

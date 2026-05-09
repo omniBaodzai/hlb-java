@@ -1,4 +1,4 @@
-package switch_statement;
+package challenge;
 
 public class ChallengeSwitchEnhance02
 {
