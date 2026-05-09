@@ -18,13 +18,6 @@ public class ChallengeOverloading02
     // Method 2: Nạp chồng, nhận feet và inches
     public static double convertToCentimeters(int feet, int inches)
     {
-        // Đổi từ ft sang in
-        int feetToInches = feet * 12;
-
-        // Cộng với inches
-        int totalInches = feetToInches + inches;
-
-        // Đổi tổng totalInches sang cm
-        return convertToCentimeters(totalInches);
+        return convertToCentimeters(feet * 12 + inches);
     }
 }
